@@ -1,0 +1,29 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>user input text box</title>
+        <script>
+            function fn1() {
+                var str = document.getElementById("text1").value;
+                var str1 = document.getElementById("password").value;
+                if (str == "shreenathkadam75@gmail.com" && str1 == "shree7503") {
+                    alert("username or password are correct");
+                }
+                else {
+                    alert("username or password are incorrect");
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <input type="text" id="text1" placeholder="enter anything">
+        <br>
+        <input type="password" id="password" placeholder="Enter password">
+        <br>
+        <button onclick="fn1()" id="btn1">Click me</button>
+    </body>
+
+</html>
